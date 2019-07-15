@@ -1,0 +1,3 @@
+
+DOMAIN_URL = ''
+TIMEOUT = 3000

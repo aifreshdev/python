@@ -1,0 +1,15 @@
+{% include "header.html" %}
+{% block body %}
+
+<form method=post enctype=multipart/form-data action={{ url_for('upload') }}>
+  <input type=file name='image[]'> <br/>
+  <input type=file name='image[]'> <br/>
+  <input type=file name='image[]'> <br/>
+  <input type=file name='image[]'> <br/> <br/>
+  <input type=submit value=Upload>
+</form>
+
+<a href="https://dolap.com/kol-cantasi" target="_blank">Deep Link</a>
+
+{% endblock %}
+{% include "footer.html" %}
